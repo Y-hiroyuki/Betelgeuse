@@ -8,12 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func unwind1(_ segue:UIStoryboardSegue){
+    }
+    
+    @IBAction func unwind2(_ segue:UIStoryboardSegue){
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 

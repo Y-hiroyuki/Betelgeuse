@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4358AE3EE9D0F6884DB4EFD7 /* Pods_Betelgeuse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA6941B0CBA3BFB74F42A6B /* Pods_Betelgeuse.framework */; };
 		E9186D3C26A977580003A977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186D3B26A977580003A977 /* AppDelegate.swift */; };
 		E9186D3E26A977580003A977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186D3D26A977580003A977 /* SceneDelegate.swift */; };
 		E9186D4026A977580003A977 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186D3F26A977580003A977 /* ViewController.swift */; };
 		E9186D4326A977580003A977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9186D4126A977580003A977 /* Main.storyboard */; };
 		E9186D4526A977590003A977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9186D4426A977590003A977 /* Assets.xcassets */; };
 		E9186D4826A977590003A977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9186D4626A977590003A977 /* LaunchScreen.storyboard */; };
+		E9186D5126A986190003A977 /* VoltDownCalc1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186D5026A986190003A977 /* VoltDownCalc1ViewController.swift */; };
+		E9186D5426A9862B0003A977 /* VoltDownCalc2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186D5326A9862B0003A977 /* VoltDownCalc2ViewController.swift */; };
+		E9186D5726A986440003A977 /* PipeSizeCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186D5626A986440003A977 /* PipeSizeCalcViewController.swift */; };
+		E9B8A04D26B2F1D0001BAA53 /* voltDownData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8A04C26B2F1D0001BAA53 /* voltDownData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1533EB3D3A5381A287463EC3 /* Pods-Betelgeuse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Betelgeuse.debug.xcconfig"; path = "Target Support Files/Pods-Betelgeuse/Pods-Betelgeuse.debug.xcconfig"; sourceTree = "<group>"; };
+		B324518C1BBD1E4B63B8E749 /* Pods-Betelgeuse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Betelgeuse.release.xcconfig"; path = "Target Support Files/Pods-Betelgeuse/Pods-Betelgeuse.release.xcconfig"; sourceTree = "<group>"; };
 		E9186D3826A977580003A977 /* Betelgeuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Betelgeuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9186D3B26A977580003A977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9186D3D26A977580003A977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		E9186D4426A977590003A977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9186D4726A977590003A977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9186D4926A977590003A977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9186D5026A986190003A977 /* VoltDownCalc1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltDownCalc1ViewController.swift; sourceTree = "<group>"; };
+		E9186D5326A9862B0003A977 /* VoltDownCalc2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltDownCalc2ViewController.swift; sourceTree = "<group>"; };
+		E9186D5626A986440003A977 /* PipeSizeCalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipeSizeCalcViewController.swift; sourceTree = "<group>"; };
+		E9B8A04C26B2F1D0001BAA53 /* voltDownData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voltDownData.swift; sourceTree = "<group>"; };
+		EDA6941B0CBA3BFB74F42A6B /* Pods_Betelgeuse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Betelgeuse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4358AE3EE9D0F6884DB4EFD7 /* Pods_Betelgeuse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1753E07A7F8D3BA5729EA5CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6941B0CBA3BFB74F42A6B /* Pods_Betelgeuse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9186D2F26A977580003A977 = {
 			isa = PBXGroup;
 			children = (
 				E9186D3A26A977580003A977 /* Betelgeuse */,
 				E9186D3926A977580003A977 /* Products */,
+				EF48899A85295448C8D79DF7 /* Pods */,
+				1753E07A7F8D3BA5729EA5CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +82,25 @@
 				E9186D3B26A977580003A977 /* AppDelegate.swift */,
 				E9186D3D26A977580003A977 /* SceneDelegate.swift */,
 				E9186D3F26A977580003A977 /* ViewController.swift */,
+				E9186D5026A986190003A977 /* VoltDownCalc1ViewController.swift */,
+				E9186D5326A9862B0003A977 /* VoltDownCalc2ViewController.swift */,
+				E9186D5626A986440003A977 /* PipeSizeCalcViewController.swift */,
 				E9186D4126A977580003A977 /* Main.storyboard */,
+				E9B8A04C26B2F1D0001BAA53 /* voltDownData.swift */,
 				E9186D4426A977590003A977 /* Assets.xcassets */,
 				E9186D4626A977590003A977 /* LaunchScreen.storyboard */,
 				E9186D4926A977590003A977 /* Info.plist */,
 			);
 			path = Betelgeuse;
+			sourceTree = "<group>";
+		};
+		EF48899A85295448C8D79DF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1533EB3D3A5381A287463EC3 /* Pods-Betelgeuse.debug.xcconfig */,
+				B324518C1BBD1E4B63B8E749 /* Pods-Betelgeuse.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9186D4C26A977590003A977 /* Build configuration list for PBXNativeTarget "Betelgeuse" */;
 			buildPhases = (
+				0A7175FC928A39D6AAEA0490 /* [CP] Check Pods Manifest.lock */,
 				E9186D3426A977580003A977 /* Sources */,
 				E9186D3526A977580003A977 /* Frameworks */,
 				E9186D3626A977580003A977 /* Resources */,
+				440177141530FEFC08901AF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +170,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A7175FC928A39D6AAEA0490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Betelgeuse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		440177141530FEFC08901AF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Betelgeuse/Pods-Betelgeuse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Betelgeuse/Pods-Betelgeuse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Betelgeuse/Pods-Betelgeuse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9186D3426A977580003A977 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9186D5126A986190003A977 /* VoltDownCalc1ViewController.swift in Sources */,
 				E9186D4026A977580003A977 /* ViewController.swift in Sources */,
+				E9186D5726A986440003A977 /* PipeSizeCalcViewController.swift in Sources */,
+				E9B8A04D26B2F1D0001BAA53 /* voltDownData.swift in Sources */,
+				E9186D5426A9862B0003A977 /* VoltDownCalc2ViewController.swift in Sources */,
 				E9186D3C26A977580003A977 /* AppDelegate.swift in Sources */,
 				E9186D3E26A977580003A977 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +367,7 @@
 		};
 		E9186D4D26A977590003A977 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1533EB3D3A5381A287463EC3 /* Pods-Betelgeuse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +387,7 @@
 		};
 		E9186D4E26A977590003A977 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B324518C1BBD1E4B63B8E749 /* Pods-Betelgeuse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
