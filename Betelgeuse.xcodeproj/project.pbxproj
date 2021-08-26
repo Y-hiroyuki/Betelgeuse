@@ -17,6 +17,7 @@
 		E9186D5126A986190003A977 /* VoltDownCalc1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186D5026A986190003A977 /* VoltDownCalc1ViewController.swift */; };
 		E9186D5426A9862B0003A977 /* VoltDownCalc2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186D5326A9862B0003A977 /* VoltDownCalc2ViewController.swift */; };
 		E9186D5726A986440003A977 /* PipeSizeCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9186D5626A986440003A977 /* PipeSizeCalcViewController.swift */; };
+		E94B8EC726C8ED1F00952648 /* Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94B8EC626C8ED1F00952648 /* Draw.swift */; };
 		E9B8A04D26B2F1D0001BAA53 /* voltDownData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8A04C26B2F1D0001BAA53 /* voltDownData.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		E9186D5026A986190003A977 /* VoltDownCalc1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltDownCalc1ViewController.swift; sourceTree = "<group>"; };
 		E9186D5326A9862B0003A977 /* VoltDownCalc2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltDownCalc2ViewController.swift; sourceTree = "<group>"; };
 		E9186D5626A986440003A977 /* PipeSizeCalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipeSizeCalcViewController.swift; sourceTree = "<group>"; };
+		E94B8EC626C8ED1F00952648 /* Draw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draw.swift; sourceTree = "<group>"; };
 		E9B8A04C26B2F1D0001BAA53 /* voltDownData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voltDownData.swift; sourceTree = "<group>"; };
 		EDA6941B0CBA3BFB74F42A6B /* Pods_Betelgeuse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Betelgeuse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 				E9186D5026A986190003A977 /* VoltDownCalc1ViewController.swift */,
 				E9186D5326A9862B0003A977 /* VoltDownCalc2ViewController.swift */,
 				E9186D5626A986440003A977 /* PipeSizeCalcViewController.swift */,
+				E94B8EC626C8ED1F00952648 /* Draw.swift */,
 				E9186D4126A977580003A977 /* Main.storyboard */,
 				E9B8A04C26B2F1D0001BAA53 /* voltDownData.swift */,
 				E9186D4426A977590003A977 /* Assets.xcassets */,
@@ -220,6 +223,7 @@
 				E9186D5126A986190003A977 /* VoltDownCalc1ViewController.swift in Sources */,
 				E9186D4026A977580003A977 /* ViewController.swift in Sources */,
 				E9186D5726A986440003A977 /* PipeSizeCalcViewController.swift in Sources */,
+				E94B8EC726C8ED1F00952648 /* Draw.swift in Sources */,
 				E9B8A04D26B2F1D0001BAA53 /* voltDownData.swift in Sources */,
 				E9186D5426A9862B0003A977 /* VoltDownCalc2ViewController.swift in Sources */,
 				E9186D3C26A977580003A977 /* AppDelegate.swift in Sources */,
@@ -300,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -355,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -371,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 377JC29A7J;
 				INFOPLIST_FILE = Betelgeuse/Info.plist;
@@ -380,6 +385,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.y.hiroyuki.Betelgeuse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -391,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 377JC29A7J;
 				INFOPLIST_FILE = Betelgeuse/Info.plist;
@@ -400,6 +407,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.y.hiroyuki.Betelgeuse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

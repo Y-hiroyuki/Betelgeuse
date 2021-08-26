@@ -16,6 +16,7 @@ class voltDownData: Object {
     @objc dynamic var cablesize: String = ""
     @objc dynamic var frequency: String = ""
     @objc dynamic var factor: String = ""
+    @objc dynamic var impedance: Float = 0
     @objc dynamic var current: Float = 0
     @objc dynamic var distance: Float = 0
     @objc dynamic var voltDown: Float = 0
